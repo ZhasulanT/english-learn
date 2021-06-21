@@ -12,13 +12,13 @@ export const Home = () => {
             <div className="for-child">
           
           
-          <NavLink  to="startTestsEasy" exact>для детей</NavLink>
+          <NavLink  to="/startTestsEasy" exact>для детей</NavLink>
           </div>
           </div>
 
             <div className="for-profi-block">
           <div className="for-profi">
-            <NavLink  to="startTestsHard" exact>для взрослых</NavLink>
+            <NavLink  to="/startTestsHard" exact>для взрослых</NavLink>
          </div>
          </div>
         </div>

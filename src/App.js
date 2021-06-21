@@ -12,10 +12,10 @@ function App() {
     
       <Navbar />
     <Switch>
-        <Route exact path={'/'} component={Home} />
-        <Route path={'/about'} component={About} />
-        <Route path={'/startTestsEasy'} render={ () => <StartTests live={1} /> }  />
-        <Route path={'/startTestsHard'} render={ () => <StartTests live={0} /> }  />
+        <Route exact path={'/english-learn'} component={Home} />
+        <Route exact path={'/about'} component={About} />
+        <Route exact path={'/startTestsEasy'} render={ () => <StartTests live={1} /> }  />
+        <Route exact path={'/startTestsHard'} render={ () => <StartTests live={0} /> }  />
       </Switch> 
      
         

@@ -9,12 +9,12 @@ function Navbar() {
         <div className='navbar-containers'>
           
          <div className='nav-home'>
-          <NavLink to='/' >
+          <NavLink to='/english-learn' >
             Home
             </NavLink>
             </div>
             <div className='nav-about'>
-              <NavLink to='about' >
+              <NavLink to='/about' >
                 About
               </NavLink>
               </div>
