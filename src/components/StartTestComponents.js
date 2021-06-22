@@ -5,8 +5,6 @@ import TestComponent from './TestComponent';
 import TestComponent2 from './TestComponent2';
 
 
-
-
 export const StartTestComponents = (props) => {
 
    
@@ -43,7 +41,5 @@ export const StartTestComponents = (props) => {
         </SwitchTransition>
     </>
           
-    
-
 )
 }

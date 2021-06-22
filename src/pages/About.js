@@ -7,6 +7,7 @@ export const About = () => {
     <div className="about-block">
     
     <p>Программа расчитана для лиц изучающих Английский язык</p>
+    <p>Всем удачи!</p>
 
     
 
@@ -17,3 +18,5 @@ export const About = () => {
   </div>
    );
 }
+
+

@@ -9,7 +9,6 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    
       <Navbar />
     <Switch>
         <Route exact path={'/english-learn'} component={Home} />
