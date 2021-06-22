@@ -1,6 +1,5 @@
-const TestData = () => {
-    return (
-        [{question: "access", variants: ["экран", "доступ", "устройство", "язык", "отображать"], correct: "доступ" },
+export const TestData = [ 
+        {question: "access", variants: ["экран", "доступ", "устройство", "язык", "отображать"], correct: "доступ" },
         {question: "action", variants: ["актив", "предмет", "внимание", "действие", "магазин"], correct: "действие" },
         {question: "application", variants: ["приложение", "дополнение", "изменить", "вырезать", "получить"], correct: "приложение" },
         {question: "building", variants: ["персонаж", "введение", "спустя", "строительство", "предмет"], correct: "строительство" },
@@ -362,7 +361,6 @@ const TestData = () => {
         {question: "instead", variants: ["средний", "вместо", "плечо", "имущество", "вызов"], correct: "вместо"},
         {question: "improve", variants: ["улучшать", "вместо", "плечо", "имущество", "вызов"], correct: "улучшать"}
         
-        ])
-}
+        ]
 
-export default TestData;
+
