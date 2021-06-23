@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 
-const VariantsTest = (props) => {
+const Options = (props) => {
    
     const [variantsItem, setVariantsItem] = useState(props.variantsItem)
     const [btnStyle, setBtnStyle] = useState("btn btn-primary")
@@ -46,4 +46,4 @@ const VariantsTest = (props) => {
     }
 
 
-export default VariantsTest;
+export default Options;

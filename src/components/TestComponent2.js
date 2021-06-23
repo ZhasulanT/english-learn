@@ -1,10 +1,10 @@
 import React from 'react';
 import { variantsCreator } from './variantsCreator';
-import VariantsTest from './VariantsTest';
+import Options from './Options';
 
 const TestComponent2 = (props) => {
 
-    let variantsElements = variantsCreator(props.state.variants).map((d,index) => <VariantsTest correct={props.state.correct} key={index} 
+    let variantsElements = variantsCreator(props.state.variants).map((d,index) => <Options correct={props.state.correct} key={index} 
     live={props.live} gameOver={props.gameOver} onClick={props.onClick} variantsItem={d} ind={index} />);
 
     return <div className="testComponent">
